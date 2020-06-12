@@ -10,7 +10,12 @@ class App < Sinatra::Base
     "My name is Omar Nabi"
   end
   
-  get 
+  get '\hometown' do 
+    "My hometown is Herat"
+  end
   
+  get '\favorite-song' do 
+    "My favorite song is Who You Foolin"
+  end
   
 end
